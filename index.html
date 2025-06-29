@@ -1,0 +1,258 @@
+<!DOCTYPE html>  <html lang="id">  
+<head>  
+  <meta charset="UTF-8" />  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>  
+  <title>Aboutme</title>  
+  <link rel="stylesheet" href="style.css" />  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />  
+</head>  
+<body>  
+
+  <div class="page" id="home">  
+    <img src="https://files.catbox.moe/sn20zf.jpg" alt="Logo" class="logo floating" />  
+    <audio id="bg-music" src="https://files.catbox.moe/tlpgg1.mp3"></audio>  
+    <button onclick="toggleMusic()">Play Music</button>  <!-- Pemutar Musik -->  
+<div id="music-player" style="display:none; margin-top:10px; text-align:center;">  
+  <p id="music-title"><strong>Judul Lagu:</strong> For Revenge - Penyangkalan</p>  
+  <p id="music-artist"><strong>Penyanyi:</strong> Grup Musik Indonesia For Revenge</p>  
+  <input type="range" id="seek-bar" value="0" style="width:80%;" />  
+  <p><span id="current-time">0:00</span> / <span id="duration">0:00</span></p>  
+  <button onclick="stopMusic()">Stop</button>  
+</div>  
+
+<nav>  
+</nav>  
+<p id="typed-text"></p>  
+<script>
+
+const text = "hola bung selamat mengunjungi web shop AlwaysCalzz Silahkan pilih produk di bawah untuk membeli...";
+const typedText = document.getElementById("typed-text");
+let index = 0;
+
+function typeEffect() {
+if (index < text.length) {
+typedText.innerHTML += text.charAt(index);
+index++;
+setTimeout(typeEffect, 50); // kecepatan ngetik, ubah 40 jadi lebih kecil kalau mau lebih cepet
+}
+}
+
+window.onload = typeEffect;
+</script>
+<div style="display: flex; gap: 20px; justify-content: center; align-items: center; margin: 10px 0;">
+<a href="https://t.me/alwayscalzzz" target="_blank">
+<img src="https://files.catbox.moe/xltp58.jpg" alt="Telegram" class="icon floating" />
+</a>
+<a href="https://wa.me/6285820077264" target="_blank">
+<img src="https://files.catbox.moe/ju5m1g.jpg" alt="WhatsApp" class="icon floating" />
+</a>
+</div>
+<p><strong>Bahasa Pemrograman yang Dikuasai:</strong></p>
+<div style="display: flex; gap: 20px; justify-content: center; align-items: center;">
+<img src="https://files.catbox.moe/jiw6da.jpg" alt="JavaScript" class="icon floating" />
+<img src="https://files.catbox.moe/zlyx85.jpg" alt="Css" class="icon floating" />
+</div>
+</div>
+<div class="page" id="partner">
+  <h2>SCROOL KEBAWAH OM</h2>
+  <div class="produk-list">
+
+    <!-- PARTNER TWELVE -->
+    <div class="produk">
+      <img src="https://files.catbox.moe/ri7agr.jpg" alt="PARTNER TWELVE" class="floating" />
+      <p><strong>PARTNER TWELVE</strong></p>
+      <p><strong>BENEFIT:</strong></p>
+      <ul style="text-align: left; padding-left: 15px;">
+        <li>- Get Twelve Fortunes No Enc</li>
+        <li>- Get Script Eternal Galaxy Full Update</li>
+        <li>- Get All Function New</li>
+        <li>- Get Base Via WhatsApp/Telegram</li>
+        <li>- Get Script Obf</li>
+        <li>- Get Admin Channel</li>
+        <li>- Get Murid Bann Channel</li>
+        <li>- Get Seles Userbot Permanen</li>
+        <li>- Get Promosi 24 Jam</li>
+        <li>- Get Tutor Pasang/Add Function</li>
+        <li>- Get Tutor Buat Db/Add Db</li>
+        <li>- Get Murbug Script Lotus ( Full Up )</li>
+        <li>- Get Dorongan Untuk Balmod</li>
+        <li>- Diajarin Tutor Fixx Sc</li>
+        <li>- Dibantu Naik Nama</li>
+      </ul>
+      <p>Harga: Rp 50.000</p>
+      <a href="https://t.me/alwayscalzzz" target="_blank"><button>Owner</button></a>
+      <a href="https://t.me/twelveinfo" target="_blank"><button>Channel</button></a>
+    </div>
+
+    <!--- PARTNER VIP -->
+    <div class="produk">
+      <img src="https://files.catbox.moe/ri7agr.jpg" alt="PARTNER VIP" class="floating" />
+      <p><strong>PARTNER VIP</strong></p>
+      <p><strong>BENEFIT:</strong></p>
+      <ul style="text-align: left; padding-left: 15px;">
+        <li>- Get Akses Partner Twelve</li>
+        <li>- Get Murban Channel</li>
+        <li>- Get Base Via WhatsApp/Telegram</li> 
+        <li>- Get Admin Channel</li>
+        <li>- Get Script Obf</li>
+        <li>- Get Function</li>
+        <li>- Get Promosi 24 Jam</li>
+        <li>- Get Tutor Pasang/Add Func</li>
+        <li>- Get Murbug</li>
+        <li>- Get Tutor Buat/Add Db</li>
+        <li>- Get Dorongan Buat Balmod</li>
+        <li>- Free Fixx Sc Mu ( Kalo Ga Sibuk )</li>
+        <li>- Admin Room Public</li>
+        <li>- Admin Grub All Buyer Twelve</li>
+      </ul>
+      <p>Harga: Rp 20.000</p>
+      <a href="https://t.me/alwayscalzzz" target="_blank"><button>Owner</button></a>
+      <a href="https://t.me/twelveinfo" target="_blank"><button>Channel</button></a>
+    </div>
+
+    <!-- PARTNER PRIBADI -->
+    <div class="produk">
+      <img src="https://files.catbox.moe/jbayic.jpg" alt="PARTNER PRIBADI" class="floating" />
+      <p><strong>PARTNER PRIBADI</strong></p>
+      <p><strong>BENEFIT:</strong></p>
+      <ul style="text-align: left; padding-left: 15px;">
+        <li>- Get No Enc Twelve Fortunes All Version</li>
+        <li>- Get Apeiron Infinity Full Update</li>
+        <li>- Get Rexus Full Update</li>
+        <li>- Get Traz Invictus Full Update</li>
+        <li>- Get Eternal Galaxy Full Update</li>
+        <li>- Get Snitch Full Update</li>
+        <li>- Get Eternal Zeno Full Update</li>
+        <li>- Get Function Forceclose New</li>
+        <li>- Get Base Whatsapp/Telegram</li>
+        <li>- Get Script Obf</li>
+        <li>- Get Tutor Pasang Function</li>
+        <li>- Get Tutor Pasang/Tambah Db</li>
+        <li>- Get Promosi 24 Jam</li>
+        <li>- Get Dorongan Untuk Balmod</li>
+        <li>- Dll Tanyakan Ke Pv</li>
+      </ul>
+      <p>Harga: Rp 120.000</p>
+      <a href="https://t.me/alwayscalzzz" target="_blank"><button>Owner</button></a>
+      <a href="https://t.me/twelveinfo" target="_blank"><button>Channel</button></a>
+    </div>
+
+    <!-- AKSES REXUS -->
+    <div class="produk">
+      <img src="https://files.catbox.moe/wu4he8.jpg" alt="AKSES REXUS" class="floating" />
+      <p><strong>AKSES REXUS</strong></p>
+      <p><strong>HARGA:</strong></p>
+      <ul style="text-align: left; padding-left: 15px;">
+        <li>- SCRIPT : NO UPDATE 50K</li>
+        <li>-           FREE UP V15 75K</li>
+        <li>-           FULL UP 100K</li>
+        <li>- RESELLER : 150K FULL UPDATE</li>
+             
+      <p><strong>BENEFIT:</strong></p>
+      <ul style="text-align: left; padding-left: 15px;">
+        <li>- FORCECLOSE INVISIBLE</li>
+        <li>- DELAY INVISIBLE</li>
+        <li>- DELAY CRASH</li>
+        <li>- DLL</li>
+      </ul>
+      <a href="https://t.me/alwayscalzzz" target="_blank"><button>Owner</button></a>
+      <a href="https://t.me/twelveinfo" target="_blank"><button>Channel</button></a>
+    </div>
+
+    <!-- AKSES TWELVE FORTUNES -->
+    <div class="produk">
+      <img src="https://files.catbox.moe/wp9ucf.jpg" alt="AKSES TWELVE FORTUNES" class="floating" />
+      <p><strong>AKSES TWELVE FORTUNES</strong></p>
+      <p><strong>HARGA:</strong></p>
+      <ul style="text-align: left; padding-left: 15px;">
+        <li>- 30K NO UPDATE</li>
+        <li>- 45K 5x UPDATE</li>
+        <li>- 60K FULL UPDATE</li>
+        <li>- 80K RESELLER</li>
+        <li>- 100K PARTNER</li>
+        <li>- 130K MODS</li>
+        <li>- 150K CEO</li>
+        <li>- 200K OWNER</li>
+      </ul>
+      <a href="https://t.me/alwayscalzzz" target="_blank"><button>Owner</button></a>
+      <a href="https://t.me/twelveinfo" target="_blank"><button>Channel</button></a>
+    </div>
+
+  </div>
+
+    <!-- Profile Section -->
+    <div class="profile-wrapper">
+      <img class="profile-img" src="https://files.catbox.moe/sn20zf.jpg" alt="noxxasolo Profile">
+      <h2>( ❄️ ) Olá Eu sou AlwaysCalzz</h2>
+      <p>私は ─ WhatsApp テムを破壊しようとしているボットです。賢くご利用ください。</p>
+      <p><strong>🧠 Tentang Saya (ID):</strong><br> Saya adalah seorang developer script bug WhatsApp yang berfokus pada pengembangan dan eksploitasi sistem WhatsApp. Saya juga spesialis keamanan dalam pembuatan dan pelindungan script WhatsApp — baik untuk sistem berbasis Telegram maupun langsung via WhatsApp.</p>
+      <p><strong>🧠 About Me (EN):</strong><br> I am a WhatsApp bug script developer focused on system exploitation and security, including creating and securing WA bots integrated with Telegram or direct WA use.</p>
+      <div class="link-buttons">
+        <a href="https://t.me/alwayscalzzz" target="_blank" class="btn-link">
+          <img src="https://files.catbox.moe/sn20zf.jpg" alt="Telegram">Telegram
+        </a>
+        <a href="https://t.me/twelveinfo" target="_blank" class="btn-link">
+          <img src="https://files.catbox.moe/evvzsi.jpg" alt="Channel">Channel
+        </a>
+      </div>
+    </div>
+
+    <div class="footer">© 2025 Web Shop — Powered by AlwaysCalzz</div>
+  </div>
+
+  <nav style="margin-top: 20px;">
+    <button onclick="scrollToHome()">Back</button>
+  </nav>
+</div>
+ 
+  </nav>  
+</div>    <script>  
+    const music = document.getElementById("bg-music");  
+    const musicPlayer = document.getElementById("music-player");  
+    const seekBar = document.getElementById("seek-bar");  
+    const currentTimeEl = document.getElementById("current-time");  
+    const durationEl = document.getElementById("duration");  
+  
+    function toggleMusic() {  
+      if (music.paused) {  
+        music.play();  
+        musicPlayer.style.display = "block";  
+      } else {  
+        music.pause();  
+      }  
+    }  
+  
+    function stopMusic() {  
+      music.pause();  
+      music.currentTime = 0;  
+    }  
+  
+    music.addEventListener("loadedmetadata", () => {  
+      seekBar.max = music.duration;  
+      durationEl.textContent = formatTime(music.duration);  
+    });  
+  
+    music.addEventListener("timeupdate", () => {  
+      seekBar.value = music.currentTime;  
+      currentTimeEl.textContent = formatTime(music.currentTime);  
+    });  
+  
+    seekBar.addEventListener("input", () => {  
+      music.currentTime = seekBar.value;  
+    });  
+  
+    function formatTime(time) {  
+      const minutes = Math.floor(time / 60);  
+      const seconds = Math.floor(time % 60).toString().padStart(2, "0");  
+      return `${minutes}:${seconds}`;  
+    }  
+  
+    function scrollToProduk() {  
+      document.getElementById("produk").scrollIntoView({ behavior: "smooth" });  
+    }  
+  
+    function scrollToHome() {  
+      document.getElementById("home").scrollIntoView({ behavior: "smooth" });  
+    }  
+  </script>  </body>  
+</html>
